@@ -22,7 +22,7 @@ makeCacheMatrix <- function(x = matrix()) {
              getinverse = getinverse)
 }
 
-## cacheSolve computes the inverse but before that
+## cacheSolve computes the inverse and stores the value in cache but before that
 ## it checks if it had already been solved and stored in cache
 ## in which case the value of inverse is directly retrieved from cache without any calculation
 
